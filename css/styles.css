@@ -76,6 +76,12 @@ body {
 	margin: 0;
 	margin-bottom: -10px;
 }
+.bio {
+    font-family: "Roboto", sans-serif;
+    color: white;
+	margin: 0;
+	margin-bottom: -10px;
+}
 
 .discord {
     height: 24px;
