@@ -12,23 +12,7 @@ body {
     overflow: hidden;
 }
 
-.background-video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: auto;
-    height: auto;
-    overflow: hidden;
-    z-index: -1;
-	transform: translate(-50%, -50%) scale(1.1);
-    filter: blur(15px);
-}
 
-.background-video video {
-    min-width: 100%;
-    min-height: 100%;
-    object-fit: cover;
-}
 
 .container {
     display: flex;
@@ -43,7 +27,7 @@ body {
 
 .rectangle {
     width: 320px;
-    height: 400px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -74,14 +58,14 @@ body {
     font-family: "Roboto", sans-serif;
     color: white;
 	margin: 0;
-	margin-bottom: -10px;
+	margin-bottom: 10px;
 }
 
 .bio {
     font-family: "Roboto", sans-serif;
     color: white;
 	margin: 0;
-	margin-bottom: -10px;
+	margin-bottom: 15px;
 }
 
 .discord {
