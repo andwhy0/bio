@@ -27,7 +27,7 @@ body {
 
 .rectangle {
     width: 320px;
-    height: 350px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     justify-content: center;
